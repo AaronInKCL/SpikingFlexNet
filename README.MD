@@ -135,7 +135,7 @@ python run_attack_collect.py \
     --sample_size 128
 ```
 
-![Adversarial Robustness](/SpikingFlexNet/public/attack.png)
+![Adversarial Robustness](public/attack.png)
 
 3. Gradient Flow Analysis
 We provide a gradient flow diagnostic tool that helps detect vanishing or exploding gradients during backpropagation.
@@ -146,7 +146,7 @@ python src/analysis/gradient_flow.py --checkpoint_dir <dir>
 ```
 **Example plot:**
 
-![Gradient Flow](/SpikingFlexNet/results/cifar10_Model_SNN_NoSTBP_NoFLEX/gradient_flow.png)
+![Gradient Flow](results/cifar10_Model_SNN_NoSTBP_NoFLEX/gradient_flow.png)
 
 4. Hessian Spectrum and Loss Sharpness
 
@@ -156,7 +156,7 @@ We compute the top eigenvalues of the Hessian to assess the sharpness of the los
 python src/analysis/hessian.py --checkpoint_dir <dir>
 ```
 **Example plot:**
-![hessian](/SpikingFlexNet/results/cifar10_Model_SNN_NoSTBP_NoFLEX/hessian/hessian_spectrum_density.png)
+![hessian](results/cifar10_Model_SNN_NoSTBP_NoFLEX/hessian/hessian_spectrum_density.png)
 
 
 5. Intermediate Representation Visualization
@@ -168,7 +168,7 @@ python src/analysis/intermediate_plot.py --checkpoint_dir <dir>
 ```
 
 **Example plot:**
-![inte](/SpikingFlexNet/results/cifar10_Model_SNN_NoSTBP_NoFLEX/intermediate_representations.png)
+![inte](results/cifar10_Model_SNN_NoSTBP_NoFLEX/intermediate_representations.png)
 
 6. Loss Surface Visualization
 Using perturbations along principal directions in parameter space, we generate 2D loss landscapes:
@@ -178,4 +178,4 @@ python src/analysis/loss_surface.py --checkpoint_dir <dir>
 ```
 
 **Example plot:**
-![inte](/SpikingFlexNet/results/cifar10_Model_SNN_NoSTBP_NoFLEX/loss_surface_plot.png)
+![inte](results/cifar10_Model_SNN_NoSTBP_NoFLEX/loss_surface_plot.png)
