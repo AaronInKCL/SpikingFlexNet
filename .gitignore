@@ -9,15 +9,4 @@ __pycache__
 .coverage
 runs/**
 init.sh
-_check*.py
-_utils/**
-results/**
-**.csv
-_andriy/**
-**.npy
-**.pkl
-**.json
-**.png
-wandb/**
-_manual_sync_wandb.py
-*.py
+

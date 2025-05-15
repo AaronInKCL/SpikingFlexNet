@@ -1,0 +1,18 @@
+{
+  "network": "SimpleFlexNet",
+  "dataset": "mnist",
+  "batch_size": 256,
+  "learning_rate": 0.01,
+  "num_classes": 10,
+  "use_flex": true,
+  "optimizer": "SGD",
+  "logits_mechanism": "THRESHOLD",
+  "masking_mechanism": "SIGMOID_HARD",
+  "logits_use_batchnorm": true,
+  "dropout": 0.2,
+  "in_dimensions": [3, 28, 28],
+
+  "spiking": false,
+  "spiking_threshold": 1.0,
+  "spiking_decay": 0.95
+}
