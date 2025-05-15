@@ -178,4 +178,4 @@ python src/analysis/loss_surface.py --checkpoint_dir <dir>
 ```
 
 **Example plot:**
-![inte](results/cifar10_Model_SNN_NoSTBP_NoFLEX/loss_surface_plot.png)
+![loss](results/cifar10_Model_SNN_NoSTBP_NoFLEX/loss_surface_plot.png)
