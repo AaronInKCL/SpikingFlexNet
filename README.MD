@@ -1,6 +1,6 @@
 # SpikingFlexNet: A Flexible Spiking Neural Network Framework
 
-Repository for the SpikingFlexNet project under [Kozlov Lab](https://www.kozlovlab.com/).
+Repository for the SpikingFlexNet project under [Kozlov Lab](https://www.kozlovlab.com/), by Zifan Ning.
 
 SpikingFlexNet is a modular deep learning framework for training and analyzing flexible spiking neural networks (SNNs) in visual classification tasks. It supports conventional ANN/SNN modes, biologically inspired training via STBP, and a wide range of robustness and visualization tools for neural models.
 
